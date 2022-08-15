@@ -19,4 +19,10 @@
   .link-arrow {
     font-size: 1.5rem;
   }
+  .badge {
+    font-size: 1.5rem;
+  }
+  .badge--small {
+    font-size: 1.2rem;
+  }
 }
