@@ -25,4 +25,8 @@
   .badge--small {
     font-size: 1.2rem;
   }
+
+  .list--tick .list__item {
+    padding-left: 0;
+  }
 }
