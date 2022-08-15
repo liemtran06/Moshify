@@ -6,6 +6,7 @@
   --color-body: #918ca4;
 }
 
+/* *Typography */
 html {
   font-size: 62.5%;
 }
@@ -37,19 +38,23 @@ p {
   margin-top: 0;
 }
 
-@media (min-width: 1024px) {
-  body {
-    font-size: 1.8rem;
-  }
+/* * Link */
+a {
+  text-decoration: none;
+}
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-  h1 {
-    font-size: 8rem;
-  }
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
 
-  h2 {
-    font-size: 4rem;
-  }
-  h3 {
-    font-size: 2.4rem;
-  }
+.link-arrow:hover::after {
+  margin-left: 10px;
 }
