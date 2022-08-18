@@ -29,4 +29,8 @@
   .list--tick .list__item {
     padding-left: 0;
   }
+
+  .btn {
+    font-size: 1.5rem;
+  }
 }
